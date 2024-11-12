@@ -34,11 +34,11 @@ public class BoardService1 {
                 }
             } else if (choose == 2) {
                 if (content1 != ""){//만약에 첫번째 게시물이 존재하면
-                    System.out.printf("작성자 : %s, 내용 : %s", writer1, content1);
+                    System.out.printf("작성자 : %s, 내용 : %s\n", writer1, content1);
                 } if (content2 != "") {
-                    System.out.printf("작성자 : %s, 내용 : %s", writer2, content2);
+                    System.out.printf("작성자 : %s, 내용 : %s\n", writer2, content2);
                 } if (content3 != "") {
-                    System.out.printf("작성자 : %s, 내용 : %s", writer3, content3);
+                    System.out.printf("작성자 : %s, 내용 : %s\n", writer3, content3);
                 }else {
                     System.out.println("게시물이 없습니다");
                 }
