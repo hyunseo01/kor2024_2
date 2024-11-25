@@ -4,7 +4,7 @@ public class BoardDto {
     private String content;
     private String writer;
     private int pwd;
-    BoardDto( ){ }
+    BoardDto(){}
     public BoardDto(String content) {this.content = content;}
     public BoardDto(String content, String writer) {
         this.content = content;
