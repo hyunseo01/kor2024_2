@@ -20,7 +20,7 @@
             - 데이터 유효성검사
 
     5. mvc 패턴과 싱글톤 패턴과 관계
-        - view 클래스와 controller 클래스와 dao클래스는 싱글톤을 사용한다
+        - view 클래스와 day29.boardservice10mvc.controller 클래스와 dao클래스는 싱글톤을 사용한다
         - dto는 각 데이터들의 고유한 정보이므로 싱글톤을 사용하지 않는다.
 
 - 싱글(혼자)톤(객체) 패턴
